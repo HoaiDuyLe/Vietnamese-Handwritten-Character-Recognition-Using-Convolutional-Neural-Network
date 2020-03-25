@@ -38,9 +38,9 @@ def split_data(SOURCE, TRAINING, TESTING, VALIDATION, SPLIT_SIZE):
         copyfile(this_file, destination)
 
 if __name__== "__main__":
-    source_path = "D:\Luanvan\Source"
+    source_path = "Path to Source Folder"
     split_size = 0.8
-    dataset_path = "D:\Luanvan\Vietnamese-Handwritten-Character-Recognition-Using-Convolutional-Neural-Network\Dataset"
+    dataset_path = "Path to Dataset folder"
 
     if os.path.exists(dataset_path):
         shutil.rmtree(dataset_path)
